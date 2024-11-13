@@ -7,17 +7,19 @@
   <null name="startup_services"/>
   <null name="shutdown_services"/>
   <null name="replication_services"/>
-  <null name="requires"/>
+  <record name="requires" javaclass="com.wm.util.Values">
+    <value name="PackX">1.0</value>
+  </record>
   <null name="listACL"/>
   <value name="webappLoad">yes</value>
   <value name="reloadWithDependentPackage">yes</value>
-  <value name="build">4</value>
+  <value name="build">5</value>
   <null name="description"/>
   <value name="created_date">13-11-2024 04:16:18 GMT</value>
   <null name="extendedProperties"/>
   <null name="target_server_version"/>
   <value name="isProjectPackage">true</value>
-  <value name="lastUpdated">2024-11-13T04:16:41.137658343Z</value>
+  <value name="lastUpdated">2024-11-13T13:17:20.416707157Z</value>
   <value name="wmProjectId">fl733e776f7447962d73b345</value>
   <value name="creator">siqa admin</value>
 </Values>
